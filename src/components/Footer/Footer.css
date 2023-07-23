@@ -12,17 +12,26 @@
 }
 
 .footer_main {
-  width: 60%; /* Increase the width of the footer_main to 80% */
+  width: 60%; /* Increase the width of the footer_main to 60% */
   display: flex;
   justify-content: flex-start; /* Left-align the content within the footer_main */
   flex-wrap: wrap; /* Allow content to wrap to the next line if necessary */
 }
 
-
 a {
   color: #5a5a5a !important;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease; /* Add transition to smoothly change color on hover */
 }
 
+.footer_item:hover {
+  color: #fff !important; /* Change link color to white when hovered */
+}
+
+a:hover{
+  color: #fff !important; /* Change link color to white when hovered */
+}
 .footer__nav {
   display: flex;
   justify-content: space-between; /* To maintain the same structure, use space-between */
@@ -43,16 +52,6 @@ a {
   margin: 0;
   font-weight: bold;
   margin-bottom: 1rem; /* Added more space between the text */
-}
-
-.footer__nav a {
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 0.5rem;
-}
-
-.footer__nav a:hover {
-  text-decoration: underline;
 }
 
 .footer__bar {
