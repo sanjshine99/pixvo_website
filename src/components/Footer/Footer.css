@@ -1,40 +1,70 @@
 .footer {
-    background-color: #141414;
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  .footer__nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  
-  .footer__nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1rem;
-  }
-  
-  .footer__nav a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer__bar {
-    border: 0.5px solid #fff;
-    width: 80%;
-    margin-bottom: 1rem;
-  }
-  
-  .footer__copy {
-    margin: 0;
-  }
-  
+  background-color: #141414;
+  color: #fff;
+  padding: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+a {
+  color: #5a5a5a !important;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: left;
+}
+
+.footer__section {
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+}
+
+.footer__left,
+.footer__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav p {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 1rem; /* Added more space between the text */
+}
+
+.footer__nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer__nav a:hover {
+  color: #fff; /* Change link color to white when hovered */
+}
+
+.footer__bar {
+  border: 1px solid #fff;
+  width: 90%;
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+  margin-left: 8rem;
+}
+
+.footer__copy {
+  margin: 0;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.footer_title {
+  color: #ededed !important;
+  padding: 10px;
+}
+
+.footer_item {
+  color: #5a5a5a !important;
+  padding: 10px;
+}
