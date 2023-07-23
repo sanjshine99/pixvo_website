@@ -2,6 +2,7 @@ import React from 'react';
 import Video from './content/video';
 import Data from './content/data';
 import Reviews from './content/reviews';
+import './Home.css'
 
 function Home() {
   return (

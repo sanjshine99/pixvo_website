@@ -1,0 +1,32 @@
+/* About.css */
+
+.aboutsection {
+  display: grid;
+  grid-template-columns: repeat(1,100%); /* Two equal columns */
+  grid-gap: 3rem;
+  padding-top: 1rem;}
+
+.about__container {
+  /* Add any styles you need for the home__container */
+}
+
+.about__content {
+}
+
+.about__area {
+  display: flex !important;
+  flex-direction: column !important; /* Arrange children in a column */
+  align-items: center !important; /* Center align children horizontally */
+  justify-content: center !important; /* Center align children vertically */
+  padding-top: 4rem;
+  margin-bottom: 3rem; /* Add some space between Data and Card */
+}
+
+.aboutcard__area {
+  /* Add any styles you need for the aboutcard__area */
+}
+
+#aboutimg {
+  border-radius: 200px;
+  /* Add any other styles you need for the image */
+}
