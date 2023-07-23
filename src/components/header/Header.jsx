@@ -9,7 +9,6 @@ function Header() {
         <Link to="/" className="nav__logo">
           <img src={logo} alt="" id="logo" />
         </Link>
-
         <div className="nav__menu">
           <ul className="nav__list grid">
             <li className="nav__item">

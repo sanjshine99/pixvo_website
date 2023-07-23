@@ -15,6 +15,7 @@ function Home() {
           <div className="data__area">
             <Data />
           </div>
+          <div id='review'><h2>Hear from our clients</h2></div>
           <div className="reviews__area-container">
         <Reviews />
       </div>

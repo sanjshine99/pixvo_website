@@ -2,8 +2,8 @@
 .header {
   background-color: #fff;
   font-size: 1rem;
+  border-bottom: 1px solid #ccc;
 }
-
 #logo {
   height: 3rem; /* Set the height as per your requirement */
   width: 3rem; /* Set the width as per your requirement */

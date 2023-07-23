@@ -29,6 +29,7 @@ function Reviews() {
 
   return (
     <div className="reviews__area">
+
       {reviewsData.map((review, index) => (
         <div
           className={`card ${index === activeCard ? 'active' : ''}`}

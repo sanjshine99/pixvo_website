@@ -2,12 +2,24 @@
   display: grid;
   grid-template-columns: repeat(2,50%); /* Two equal columns */
   grid-gap: 3rem;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 /* Video COMPONENT CSS */
 #gif{
   mix-blend-mode: darken;
+}
+#review{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+max-width: 100%; 
+grid-column: span 3; /* Make the reviews area span both columns */
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
 }
 /* DATA COMPONENT CSS */
 .data__area {
@@ -80,7 +92,6 @@ height: 200px;
 border: 1px solid #ffffff;
 border-radius: 10px;
 padding: 20px;
-margin: 20px;
 background-color: #f9f9f9;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 display: flex;
@@ -88,6 +99,10 @@ align-items: center;
 justify-content: center;
 text-align: center;
 transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .card:hover {
