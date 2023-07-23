@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-
+import logo from '../../assets/logo.png'
 function Header() {
   return (
     <header className="header">
       <nav className="nav container">
         <Link to="/home" className="nav__logo">
-          pixvo
+          <img src={logo} alt="" id="logo" />
         </Link>
 
         <div className="nav__menu">
