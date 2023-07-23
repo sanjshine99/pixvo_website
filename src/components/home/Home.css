@@ -57,4 +57,64 @@ h1{
     color:#141414 ;
   }
 
-/* Review COMPONENT CSS */
+/* Reviews */
+.reviews__area-container {
+  grid-column: span 3; /* Make the reviews area span both columns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews__area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%; /* Ensure that the reviews area doesn't exceed the grid layout */
+}
+
+
+.card {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.card:focus,
+.card.active {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.card:not(:focus):not(.active) {
+  filter: blur(2px);
+  opacity: 0.6;
+}
+
+.review_text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card:focus .review_text {
+  opacity: 1;
+}

@@ -14,9 +14,9 @@ function Home() {
           <div className="data__area">
             <Data />
           </div>
-          <div className="reviews__area">
-            <Reviews />
-          </div>
+          <div className="reviews__area-container">
+        <Reviews />
+      </div>
         </div>
       </div>
     </section>

@@ -114,7 +114,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 6rem 0 3rem;
 }
 
 .section__title {
@@ -135,14 +135,14 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 4 rem;
 }
 
 /*=============== BUTTONS ===============*/
@@ -170,7 +170,7 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -187,7 +187,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   body {
     margin: 0 0 var(--header-height) 0;
   }
