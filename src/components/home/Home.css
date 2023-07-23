@@ -57,11 +57,4 @@ h1{
     color:#141414 ;
   }
 
-
 /* Review COMPONENT CSS */
-.reviews__area {
-  grid-column: 1 / span 2;
-  
-  width: 60%;
-}
-
