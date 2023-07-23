@@ -11,10 +11,11 @@ function Data() {
             <img src={Image} alt="Art"  id ="aboutimg"/>
             <div className="about__area">
             <p>
+              "
               We are a team of developers and designers with backgrounds in motion graphics,<br/>
-              3D modeling and rendering, product design, UI UX, and front end development.
-            </p>
+              3D modeling and rendering, product design, UI UX, and front end development."</p>
           </div>
+          <h2 id='meet'>Meet the team</h2>
         </div>
         </div>
       </div>

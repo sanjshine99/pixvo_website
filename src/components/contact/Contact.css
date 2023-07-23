@@ -1,0 +1,86 @@
+/* Contact.css */
+
+body {
+    background-color: #ffffff;
+  }
+  
+  #desc {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: #ffffff;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .input__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input__group--inline {
+    display: flex; /* Display name and email inputs side by side */
+    align-items: center;
+  }
+  
+  .input__group--message {
+    flex-grow: 1;
+  }
+  
+  .input__group label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input__group input,
+  .input__group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input__group input {
+    margin-right: 10px; /* Add spacing between Name and Email inputs */
+  }
+  
+  .input__group textarea {
+    resize: vertical;
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    background-color: #141414;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #dedede;
+    color: #141414;
+  }

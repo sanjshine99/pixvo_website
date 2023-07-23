@@ -18,13 +18,13 @@ function Header() {
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="/project" className="nav__link">
-                Project
+              <Link to="/services" className="nav__link">
+                Services
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="/services" className="nav__link">
-                Service
+              <Link to="/project" className="nav__link">
+                Project
               </Link>
             </li>
             <li className="nav__item">
